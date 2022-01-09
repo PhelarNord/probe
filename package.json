@@ -1,0 +1,23 @@
+{
+  "name": "probe",
+  "version": "1.0.0",
+  "description": "A small program that runs on raspi with a dht sensor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhelarNord/probe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhelarNord/probe/issues"
+  },
+  "homepage": "https://github.com/PhelarNord/probe#readme",
+
+  "dependencies": {   
+    "node-dht-sensor": "^0.4.3"
+  }
+}
